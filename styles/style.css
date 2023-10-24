@@ -1,0 +1,33 @@
+@import url("header.css");
+@import url("banner.css");
+@import url("carrossel.css");
+@import url("topicos.css");
+@import url("contato.css");
+@import url("footer.css");
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Krona+One&family=Montserrat&family=Poppins:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Josefin+Sans:wght@400;700&family=Krona+One&family=Montserrat&display=swap');
+
+:root {
+    --cor-fundo: #ebecee; 
+    --cor-fundo-branco: #ffffff;
+    --cor-laranja: #EB9800;
+    --cor-azul-degrade: #002F52;
+    --cor-azul: #2200f2;
+    --cor-preto: #000000;
+    --cor-cinza: #474646;
+    --cor-cinza-claro: #858585;
+
+    --fonte-principal: "Poppins";
+    --fonte-secundaria: "Josefin Sans";
+}
+
+body {
+    background-color: var(--cor-fundo);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+h1 {
+    background-color: var(--cor-fundo);
+}
